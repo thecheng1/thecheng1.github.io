@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML5 Web Page</title>
+
+        <link rel="stylesheet" href="./css/style01.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Cheng's GMAT Consultancy</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#">Experience</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#">Beliefs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#">Contact</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </nav>
+        
+            <article>
+                <section>
+                   <form class="contact_form" action="#" method="post" name="contact_form">
+                       <ul>
+                           <li>
+                               <h2>Contact Us</h2>
+                               <span class="required_notifcation">* Denote required fields</fieldset></span>
+                           </li>
+                           <li>
+                               <label for="name">Name</label>
+                               <input type="text" maxlength=10 placeholder="Cheng Lee" required />
+                               <span class="form_hint">Name is required</span>
+                           </li>
+                           <li>
+                               <label for="email">Email</label>
+                               <input type="email" placeholder="someone@example.com" required/>
+                               <span class="form_hint">Enter Proper email format, i.e. someone@example.com</span>
+                           </li>
+                           <li>
+                               <label for="url">Website</label>
+                               <input type="url" placeholder="https://example.com" required pattern="(http|https)://.*" />
+                               <span class="form_hint">Enter valid url formnat</span>
+                           </li>
+                           <li>
+                               <label for="comments">Comments</label>
+                               <textarea name="message" cols="50" rows="10"></textarea>
+                           </li>
+                           <li>
+                               <button class="submit" type="submit">Submit Form</button>
+                           </li>
+                       </ul>
+                   </form>
+                </section>
+                
+            </article>
+
+            <aside>
+                <h3>GMAT tutor services</h3>
+                <ol type="a">
+                    <li><a href="#">Increase Scores</a></li>
+                    <li><a href="#">Select school</a></li>
+                    <li><a href="#">Draft Essays</a></li>
+                </ol>
+                <br>
+                <p>
+                    Cheng's GMAT tutor service is an all-in-one stop shop to help with all your college application needs
+                </p>
+                <p>
+                    If interested, please write an email to thecheng1@gmail.com
+                </p>
+                <p>
+                    Many successful cases in the past, to inquire about past cases, please also draft us an email
+                    <a href="#">Contact US</a> with your academic ambitions right now
+                </p>
+            </aside>
+            <footer>
+                Established 2017 Copyright &copy; Cheng's GMAT
+            </footer>
+        </div>
+    </body>
+</html>
